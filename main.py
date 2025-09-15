@@ -21,6 +21,8 @@ loader = JSONLoader(
     jq_schema=".",
     text_content=False,
 )  # converting pdf to readable format
+
+
 documents = loader.load()  # loader reads pdf pages and stores in test list
 
 text_splitter = CharacterTextSplitter(
@@ -61,7 +63,14 @@ retrieval_chain = create_retrieval_chain(
     new_vectorstore.as_retriever(k=10), combine_docs_chain
 )
 
-res = retrieval_chain.invoke(
-    {"input": "Give me the gist of given docuement in 3 sentences"}
-)
-print(res["answer"])
+# res = retrieval_chain.invoke(
+#     {"input": "Give me the gist of given docuement in 3 sentences"}
+# )
+while True:
+    user_input = input("You: ").strip()
+    if user_input.lower() in ["exit", "quit"]:
+        break
+    res = retrieval_chain.invoke({"input": user_input})
+    print(f"Assistant: {res['answer']}")
+
+# print(res["answer"])
