@@ -63,14 +63,21 @@ retrieval_chain = create_retrieval_chain(
     new_vectorstore.as_retriever(k=10), combine_docs_chain
 )
 
-# res = retrieval_chain.invoke(
-#     {"input": "Give me the gist of given docuement in 3 sentences"}
-# )
+chat_history = []
+
 while True:
     user_input = input("You: ").strip()
     if user_input.lower() in ["exit", "quit"]:
         break
-    res = retrieval_chain.invoke({"input": user_input})
+    chat_history.append({"role": "user", "content": user_input})
+
+    res = retrieval_chain.invoke(
+        {
+            "input": user_input,
+            "chat_history": chat_history,
+        }
+    )
     print(f"Assistant: {res['answer']}")
 
-# print(res["answer"])
+    chat_history.append({"role": "assistant", "content": res["answer"]})
+    print(chat_history)
