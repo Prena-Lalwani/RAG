@@ -1,0 +1,285 @@
+{
+    "meetings": [
+        {
+            "title": "Initial Discovery Call",
+            "agenda": "Understanding client requirements and pain points",
+            "participants": [
+                {
+                    "name": "John Smith",
+                    "job_desc": "CTO"
+                },
+                {
+                    "name": "Sarah Johnson",
+                    "job_desc": "Head of Engineering"
+                }
+            ],
+            "transcript": "Client discussed their current challenges with legacy systems and need for modernization. They're looking for a scalable solution that can handle 10x growth. Budget approval process takes 3-6 months.",
+            "action_items": "Send technical architecture proposal, Schedule follow-up with procurement team"
+        },
+        {
+            "title": "Technical Deep Dive",
+            "agenda": "Technical requirements and integration details",
+            "participants": [
+                {
+                    "name": "Mike Chen",
+                    "job_desc": "Lead Developer"
+                },
+                {
+                    "name": "Lisa Wang",
+                    "job_desc": "DevOps Manager"
+                }
+            ],
+            "transcript": "Discussed API integration requirements, security compliance needs (SOC2), and deployment preferences. They prefer cloud-native solutions with Kubernetes.",
+            "action_items": "Provide security compliance documentation, Create integration timeline"
+        },
+        {
+            "title": "Executive Stakeholder Meeting",
+            "agenda": "High-level business case and ROI discussion",
+            "participants": [
+                {
+                    "name": "David Rodriguez",
+                    "job_desc": "CEO"
+                },
+                {
+                    "name": "Emily Chen",
+                    "job_desc": "CFO"
+                },
+                {
+                    "name": "Robert Kim",
+                    "job_desc": "VP of Operations"
+                }
+            ],
+            "transcript": "Executive team expressed strong interest in digital transformation initiative. CFO emphasized need for clear ROI metrics and cost savings projections. CEO wants to see competitive advantages and market positioning benefits. Timeline pressure due to Q4 budget cycle.",
+            "action_items": "Prepare detailed ROI analysis, Create executive summary presentation, Schedule demo with key stakeholders"
+        },
+        {
+            "title": "Security and Compliance Review",
+            "agenda": "Security requirements and regulatory compliance",
+            "participants": [
+                {
+                    "name": "Jennifer Martinez",
+                    "job_desc": "CISO"
+                },
+                {
+                    "name": "Alex Thompson",
+                    "job_desc": "Compliance Officer"
+                },
+                {
+                    "name": "Maria Garcia",
+                    "job_desc": "Legal Counsel"
+                }
+            ],
+            "transcript": "Security team raised concerns about data privacy regulations (GDPR, CCPA) and industry-specific compliance (HIPAA). Need for end-to-end encryption, audit trails, and regular security assessments. Legal team wants to review data processing agreements and liability clauses.",
+            "action_items": "Submit security architecture review, Provide compliance documentation, Schedule legal review meeting"
+        },
+        {
+            "title": "Implementation Planning Session",
+            "agenda": "Project timeline, resource allocation, and implementation strategy",
+            "participants": [
+                {
+                    "name": "Kevin O'Brien",
+                    "job_desc": "Project Manager"
+                },
+                {
+                    "name": "Rachel Green",
+                    "job_desc": "Scrum Master"
+                },
+                {
+                    "name": "Tom Wilson",
+                    "job_desc": "Infrastructure Lead"
+                }
+            ],
+            "transcript": "Project team discussed phased implementation approach with MVP in 6 months and full deployment in 12 months. Need for dedicated project team of 8-10 people. Infrastructure team prefers gradual migration to minimize business disruption. Training and change management are critical success factors.",
+            "action_items": "Create detailed project plan, Define team structure and roles, Prepare change management strategy"
+        },
+        {
+            "title": "Vendor Comparison Meeting",
+            "agenda": "Comparing solutions from different vendors",
+            "participants": [
+                {
+                    "name": "Amanda Foster",
+                    "job_desc": "Procurement Manager"
+                },
+                {
+                    "name": "James Lee",
+                    "job_desc": "Technical Evaluator"
+                },
+                {
+                    "name": "Patricia Brown",
+                    "job_desc": "Business Analyst"
+                }
+            ],
+            "transcript": "Procurement team is evaluating 3 vendors including us. Key differentiators needed: cost-effectiveness, implementation speed, and ongoing support quality. They have concerns about vendor lock-in and want to see migration strategies. Decision timeline is 4 weeks.",
+            "action_items": "Submit competitive analysis, Provide migration strategy document, Schedule reference customer calls"
+        }
+    ],
+    "questionnaire": [
+        {
+            "question": "What is your primary business objective for this project?",
+            "answer": "Modernize our legacy systems to improve scalability and reduce maintenance costs"
+        },
+        {
+            "question": "What is your expected timeline for implementation?",
+            "answer": "We need to start implementation within 3 months and complete within 12 months"
+        },
+        {
+            "question": "What is your budget range for this project?",
+            "answer": "We have allocated $500K - $1M for this initiative"
+        },
+        {
+            "question": "What are your biggest technical challenges currently?",
+            "answer": "Our legacy systems can't handle the current load, causing frequent downtime and poor user experience. We also struggle with data integration between different systems."
+        },
+        {
+            "question": "What security and compliance requirements do you have?",
+            "answer": "We need SOC2 Type II compliance, GDPR compliance for EU customers, and HIPAA compliance for healthcare data. We also require end-to-end encryption and regular security audits."
+        },
+        {
+            "question": "How many users will be using the system?",
+            "answer": "Currently we have 2,500 active users, but we expect to grow to 25,000 users within the next 2 years. We need a solution that can scale automatically."
+        },
+        {
+            "question": "What is your current technology stack?",
+            "answer": "We're using Java Spring Boot for backend, React for frontend, PostgreSQL for database, and AWS for hosting. We want to maintain compatibility with our existing stack while modernizing the architecture."
+        },
+        {
+            "question": "What are your performance requirements?",
+            "answer": "We need 99.9% uptime, response times under 200ms for API calls, and ability to handle 10,000 concurrent users. We also need real-time data processing capabilities."
+        },
+        {
+            "question": "Who are the key decision makers for this project?",
+            "answer": "The CEO, CFO, CTO, and Head of Engineering are the primary decision makers. The procurement team will handle vendor evaluation, and legal will review contracts."
+        },
+        {
+            "question": "What is your preferred deployment model?",
+            "answer": "We prefer cloud-native solutions with Kubernetes orchestration. We want both on-premises and cloud deployment options for hybrid scenarios."
+        },
+        {
+            "question": "What training and support do you need?",
+            "answer": "We need comprehensive training for our development team, documentation, and 24/7 support during the first year. We also want a dedicated customer success manager."
+        },
+        {
+            "question": "What are your integration requirements?",
+            "answer": "We need to integrate with Salesforce, Slack, Microsoft Teams, and our existing ERP system. We also need REST APIs and webhook capabilities for real-time data sync."
+        },
+        {
+            "question": "What is your risk tolerance for this project?",
+            "answer": "We have low risk tolerance due to business criticality. We need a proven solution with minimal downtime during migration and comprehensive rollback capabilities."
+        },
+        {
+            "question": "How do you measure success for this project?",
+            "answer": "Success metrics include 50% reduction in maintenance costs, 99.9% uptime, 3x faster development cycles, and 90% user satisfaction scores."
+        },
+        {
+            "question": "What are your data backup and disaster recovery requirements?",
+            "answer": "We need automated daily backups, point-in-time recovery, and disaster recovery with RTO of 4 hours and RPO of 1 hour. Data should be replicated across multiple regions."
+        }
+    ],
+    "similar_projects": [
+        {
+            "project_name": "TechCorp Digital Transformation",
+            "project_desc": "Similar modernization project for a mid-size tech company with legacy system challenges",
+            "project_docs": [
+                "case_study_techcorp.pdf",
+                "technical_specs.pdf",
+                "roi_analysis.pdf"
+            ]
+        },
+        {
+            "project_name": "FinanceFlow API Integration",
+            "project_desc": "API integration project for financial services company with similar security requirements",
+            "project_docs": [
+                "integration_guide.pdf",
+                "security_compliance.pdf"
+            ]
+        },
+        {
+            "project_name": "HealthTech Cloud Migration",
+            "project_desc": "Healthcare company's migration to cloud-native architecture with HIPAA compliance requirements",
+            "project_docs": [
+                "healthcare_compliance_guide.pdf",
+                "cloud_migration_strategy.pdf",
+                "hipaa_audit_report.pdf",
+                "performance_benchmarks.pdf"
+            ]
+        },
+        {
+            "project_name": "RetailChain Microservices Modernization",
+            "project_desc": "Large retail chain's transition from monolithic to microservices architecture with 24/7 uptime requirements",
+            "project_docs": [
+                "microservices_architecture.pdf",
+                "scalability_analysis.pdf",
+                "disaster_recovery_plan.pdf",
+                "cost_optimization_report.pdf"
+            ]
+        },
+        {
+            "project_name": "ManufacturingIoT Data Platform",
+            "project_desc": "Manufacturing company's real-time data processing platform for IoT devices and predictive analytics",
+            "project_docs": [
+                "iot_integration_guide.pdf",
+                "real_time_analytics.pdf",
+                "predictive_maintenance.pdf",
+                "data_governance_policy.pdf"
+            ]
+        },
+        {
+            "project_name": "EduTech Learning Management System",
+            "project_desc": "Educational technology platform with multi-tenant architecture and global scalability requirements",
+            "project_docs": [
+                "multi_tenant_architecture.pdf",
+                "global_deployment_guide.pdf",
+                "user_experience_optimization.pdf",
+                "accessibility_compliance.pdf"
+            ]
+        },
+        {
+            "project_name": "FinTech Payment Processing Platform",
+            "project_desc": "Financial technology startup's payment processing system with PCI DSS compliance and high transaction volume",
+            "project_docs": [
+                "pci_dss_compliance.pdf",
+                "payment_processing_architecture.pdf",
+                "fraud_detection_system.pdf",
+                "transaction_monitoring.pdf"
+            ]
+        },
+        {
+            "project_name": "LogisticsTech Supply Chain Optimization",
+            "project_desc": "Logistics company's supply chain management system with real-time tracking and AI-powered optimization",
+            "project_docs": [
+                "supply_chain_optimization.pdf",
+                "real_time_tracking_system.pdf",
+                "ai_ml_integration.pdf",
+                "cost_savings_analysis.pdf"
+            ]
+        }
+    ],
+    "client_info": {
+        "company_name": "TechInnovate Solutions",
+        "industry": "Technology Services",
+        "company_size": "500-1000 employees",
+        "annual_revenue": "$50M - $100M",
+        "headquarters": "San Francisco, CA",
+        "founded": "2015",
+        "key_products": ["SaaS Platform", "API Services", "Data Analytics"],
+        "target_market": "Mid-market enterprises",
+        "current_challenges": [
+            "Legacy system performance issues",
+            "Scalability limitations",
+            "High maintenance costs",
+            "Integration complexity",
+            "Security compliance gaps"
+        ],
+        "growth_plans": [
+            "International expansion",
+            "Product portfolio expansion",
+            "AI/ML capabilities integration",
+            "Cloud-first strategy"
+        ],
+        "competitors": ["TechCorp", "CloudScale Inc", "DataFlow Systems"],
+        "decision_timeline": "Q4 2024",
+        "budget_approved": true,
+        "procurement_process": "Formal RFP process with technical evaluation"
+    },
+    "user_query": "I need help preparing for a critical meeting with a potential client. They're a growing tech company looking to modernize their infrastructure. Can you help me create a comprehensive presales strategy that addresses their specific needs, competitive positioning, and includes detailed technical and business recommendations?"
+}
